@@ -1,1 +1,1 @@
-#CLI App for basic image processing
+# CLI App for basic image processing
