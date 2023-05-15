@@ -2,8 +2,15 @@ use image::DynamicImage;
 
 pub fn print_usage_and_exit() {
     println!("USAGE (when in doubt, use a .png extension on your filenames)");
-    println!("blur INFILE OUTFILE");
-    println!("fractal OUTFILE");
+    println!("Enter the 'INFILE.png OUTFILE.png' and followed by the commands you want to run.");
+    println!("You can chain the commands in any order.");
+    println!("'blur' takes one value.");
+    println!("'brighten' takes one value.");
+    println!("'crop' takes four values.");
+    println!("'rotate' takes one value (90, 180, 270).");
+    println!("'invert' takes no values.");
+    println!("'invert' takes no values.");
+    println!("For example: 'infile.png outfile.png blur 10 invert ...'");
     // **OPTION**
     // Print useful information about what subcommands and arguments you can use
     // println!("...");
